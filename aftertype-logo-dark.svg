@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="820px" height="213px" viewBox="0 0 820 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>aftertype-logo-dark</title>
+    <style>
+        #Line {
+            animation: cursor-blink 1.06s steps(1, end) infinite;
+        }
+
+        @keyframes cursor-blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            #Line { animation: none; }
+        }
+    </style>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="dark" transform="translate(-375, -450)">
             <g id="aftertype-logo-dark" transform="translate(375, 452)">
