@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aftertype studio — Themes and tools for modern publishing.</title>
+<style>
+  :root {
+    --bg: #feffd6;
+    --text: #222;
+    --accent: #222;
+    --muted: ##2222229c;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 560px;
+    text-align: center;
+  }
+  .logo {
+    margin-bottom: 1.5rem;
+  }
+  .logo img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .tagline {
+    font-size: 1.125rem;
+    color: var(--muted);
+    margin-bottom: 2rem;
+  }
+  .tagline a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+    transition: opacity 0.2s ease;
+  }
+  .tagline a:hover {
+    opacity: 0.7;
+  }
+  .pitch {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .divider {
+    width: 40px;
+    height: 2px;
+    background: var(--accent);
+    margin: 0 auto 2.5rem;
+    opacity: 0.6;
+  }
+  .coming {
+    font-size: 0.875rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+  }
+  .contact a {
+    color: var(--text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 2px;
+  }
+  .contact a:hover {
+    border-bottom-width: 2px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="aftertype-logo-dark.svg" alt="Aftertype">
+    </div>
+    <div class="tagline"><a href="https://ghost.org/" target="_blank" rel="noopener noreferrer">Ghost</a> themes built for publishers who own their audience.</div>
+    <div class="divider"></div>
+    <div class="pitch">
+      Newsletter-first design, editorial typography, and layouts that turn 
+      readers into subscribers. Built for Ghost — no hacks, no bloat.
+    </div>
+    <div class="coming">Nortline — coming soon</div>
+    <div class="contact">
+      <a href="mailto:hello@aftertype.studio">hello@aftertype.studio</a>
+    </div>
+  </div>
+  <div class="footer">© 2026 aftertype studio</div>
+</body>
+</html>
